@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDFFE2;
+}
+
+.container{
+    /* height: 75vh; */
+    max-width: 20rem;
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    /* position: absolute;
+    top: 20%;
+    left: 15%; */
+    /* background-color: #FDFFE2; */
+}
+
+.container h2{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.container form{
+    width: 100%;
+}
+
+.container form label{
+    /* width: 100%; */
+    font-size: 1.01rem;
+}
+
+.container form #inp{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: none;
+    border: 0.2px solid black;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    margin: 0.5rem 0;
+}
+
+.container form .select-box{
+    /* height: 4rem; */
+    width: 100%;
+    /* background-color: yellow; */
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 1rem; */
+}
+
+.select-box .from{
+    width: 40%;
+}
+
+.select-box .to{
+    width: 40%;
+}
+
+.select-box .from .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 0.2rem; */
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+
+.select-box .to .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 0.2rem; */
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+
+.select-box .from .content img{
+    height: 3rem;
+    width: 2rem;
+}
+
+.select-box .from .content select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.02rem;
+}
+
+.select-box .to .content img{
+    height: 3rem;
+    width: 2rem;
+}
+
+.select-box .to .content select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.02rem;
+}
+
+.container form .select-box .icon{
+    /* width: 20%; */
+    /* border: 1px solid lightgray; */
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+form #btn{
+    font-size: 1.1rem;
+    margin: 2rem 3rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
